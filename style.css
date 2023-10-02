@@ -1,0 +1,276 @@
+                        <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+                        </style> {
+                            font-family: 'Poppins', sans-serif;
+                            margin: 0%;
+                            padding: 0%;
+                            box-sizing: border-box;
+                            scroll-behavior: smooth;
+                        }
+                        
+                        header {
+                            background-color: rgba(18, 139, 139, 0.534);
+                            width: 98%;
+                            position: fixed;
+                            z-index: 999;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 10px 10px;
+                        }
+                        
+                        .logo {
+                            text-decoration: none;
+                            color: rgb(17, 1, 5);
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-size: 1.8em;
+                        }
+                        
+                        .navigation a {
+                            color: rgb(1, 1, 10);
+                            text-decoration: none;
+                            font-size: 1.3em;
+                            font-weight: 500;
+                            padding-left: 20px;
+                            padding: 2.5em;
+                        }
+                        
+                        .navigation a:hover {
+                            color: rgb(243, 74, 23);
+                        }
+                        
+                        section {
+                            padding: 100px 200px;
+                        }
+                        
+                        .main {
+                            width: 100%;
+                            min-height: 100vh;
+                            display: flex;
+                            align-items: center;
+                            background: url(imag/1695809859550.jpg)no-repeat;
+                            background-size: cover;
+                            background-position: right;
+                            background-attachment: fixed;
+                        }
+                        
+                        .main h2 {
+                            color: rgb(120, 143, 168);
+                            font-size: 1.4em;
+                            font-weight: 600;
+                        }
+                        
+                        .main h2 span {
+                            color: rgb(89, 110, 150);
+                            font-size: 3em;
+                            font-weight: 600;
+                        }
+                        
+                        .main h3 {
+                            color: cornsilk;
+                            font-size: 2em;
+                            font-weight: 700;
+                            letter-spacing: 1px;
+                            margin-top: 10px;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .main-btn {
+                            color: cornsilk;
+                            background-color: rgb(17, 17, 126);
+                            text-decoration: none;
+                            font-size: 0.9em;
+                            font-weight: 600;
+                            display: inline-block;
+                            padding: 0.937em 2.187em;
+                            letter-spacing: 1px;
+                            border-radius: 15px;
+                            margin-bottom: 40px;
+                            transition: 0.9s ease;
+                        }
+                        
+                        .main-btn:hover {
+                            background-color: rgb(97, 45, 145);
+                            transform: scale(1.1);
+                        }
+                        
+                        .non-btn {
+                            color: cornsilk;
+                            background-color: rgb(17, 17, 126);
+                            text-decoration: none;
+                            font-size: 0.9em;
+                            font-weight: 600;
+                            display: inline-block;
+                            padding: 0.990em 2.287em;
+                            letter-spacing: 1px;
+                            border-radius: 15px;
+                            margin-bottom: 40px;
+                            transition: 0.9s ease;
+                        }
+                        
+                        .non-btn:hover {
+                            background-color: rgb(97, 45, 145);
+                            transform: scale(1.1);
+                        }
+                        
+                        .mash-btn {
+                            color: cornsilk;
+                            background-color: rgb(17, 17, 126);
+                            text-decoration: none;
+                            font-size: 0.9em;
+                            font-weight: 600;
+                            display: inline-block;
+                            padding: 0.990em 2.287em;
+                            letter-spacing: 1px;
+                            border-radius: 15px;
+                            margin-bottom: 40px;
+                            transition: 0.9s ease;
+                        }
+                        
+                        .mash-btn:hover {
+                            background-color: rgb(97, 45, 145);
+                            transform: scale(1.1);
+                        }
+                        
+                        .socil-icons a {
+                            color: beige;
+                            font-size: 1.7em;
+                            padding-right: 30px;
+                            transform: 0.5s ease;
+                        }
+                        
+                        .title {
+                            display: flex;
+                            justify-content: center;
+                            color: mediumblue;
+                            font-size: 2.2em;
+                            font-weight: 700;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .content {
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                        }
+                        
+                        .card {
+                            background-color: mistyrose;
+                            width: 21.25em;
+                            box-shadow: 0 15px 25px rgba(1 1 1 / 40%);
+                            border-radius: 10px;
+                            padding: 25px;
+                            margin: 15px;
+                            transition: 0.9s ease;
+                        }
+                        
+                        .card:hover {
+                            transform: scale(1.1);
+                        }
+                        
+                        .icon {
+                            color: darkblue;
+                            font-size: 8em;
+                            text-align: center;
+                        }
+                        
+                        .info {
+                            text-align: center;
+                        }
+                        
+                        .info h3 {
+                            color: darkblue;
+                            font-size: 1.2em;
+                            font-weight: 100;
+                            margin: 10px;
+                        }
+                        
+                        .content .icon {
+                            font-size: 2.5em;
+                        }
+                        
+                        .content .info h3 {
+                            color: rgb(15, 15, 15);
+                        }
+                        
+                        .content .info p {
+                            font-size: 1.5em;
+                        }
+                        
+                        .footer {
+                            background-color: black;
+                            color: blanchedalmond;
+                            padding: 1em;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        
+                        .footer p {
+                            font-size: 1em;
+                        }
+                        
+                        .footer-title {
+                            font-size: 1.3em;
+                            font-weight: 600;
+                        }
+                        
+                        .footer.title span {
+                            color: blue;
+                        }
+                        
+                        .footer .socil-icons a {
+                            font-size: 1.1em;
+                        }
+                        
+                        .footer .socil-icons a {
+                            font-size: 1.3em;
+                            padding: 0 12px 0 0;
+                        }
+                        
+                        .cards {
+                            background-color: rgba(18, 139, 139, 0.534);
+                        }
+                        
+                        @media (max-width:1023px) {
+                            header {
+                                padding: 12px 20px;
+                            }
+                            .navigation a {
+                                padding-left: 10px;
+                            }
+                            .title {
+                                font-size: 1.6em;
+                            }
+                            section {
+                                padding: 80px 20px;
+                            }
+                            .main-content h3 {
+                                font-size: 1.6em;
+                            }
+                            .main-content h2 {
+                                font-size: 1em;
+                            }
+                            .content {
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                        }
+                        
+                        @media (max-width:641px) {
+                            body {
+                                font-size: 12px;
+                            }
+                            .main-content h2 {
+                                font-size: 0.8em;
+                            }
+                            .main-content h3 {
+                                font-size: 1.4em;
+                            }
+                        }
+                        
+                        @media (max-width:300px) {
+                            body {
+                                font-size: 10px;
+                            }
+                        }
